@@ -48,6 +48,10 @@ header nav ul li a:hover{
     transition: .6s;
     color: darkred;
 }
+/* hamburger */
+.hamburger{
+    display: none;
+}
 
 /* banner */
 .banner{
@@ -298,7 +302,7 @@ header nav ul li a:hover{
     padding-bottom: 20px;
     padding-top: 10px;
 }
-.advisors h2, p{
+.advisors h2, .advisors p{
     text-align: center;
     padding-bottom: 10px;
 }
@@ -349,4 +353,231 @@ footer .footer-p{
 footer a i:hover{
     font-size: 1.2rem;
     transition: .5s;
+}
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+    /* header nav bar */
+header{
+    margin: 10px 20px;
+}
+
+header nav .logo h3{
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+header nav .logo h3 span{
+    font-size: 22px;
+}
+
+header nav ul{
+    display : none;
+}
+
+/* hamburger */
+.hamburger{
+    display: block;
+}
+
+.hamburger .hamburger-ul li{
+    display: block;
+    position: absolute;
+}
+
+
+
+
+/* banner */
+
+.banner .banner-content{
+    width: 300px;
+    text-align: center;
+}
+
+
+.banner .banner-form{
+    flex-direction: column;
+}
+.banner .banner-form input[type=text], select, .btn{
+    padding: 10px 14px;
+    width: 250px;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 10px;
+}
+.banner .banner-form input[type = text]{
+    width: 224px;
+}
+
+/* main section */
+/* section first */
+.section-first{
+    flex-direction: column;
+    margin: 50px 10px;
+}
+.section-first .section-first-content{
+    width: 350px;
+}
+.section-first .section-first-content h2{
+    padding-bottom: 10px;
+}
+.section-first .section-first-content p{
+    padding-bottom: 10px;
+}
+.section-first .section-first-content ul{
+    padding-bottom: 10px;
+    margin-left: 10px;
+    width: 320px;
+}
+.section-first .section-first-content ul li{
+    padding-bottom: 10px;
+}
+.section-first .section-first-content ul span{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.section-first img{
+    width: 100%;
+    height: 360px;
+    margin-top: 15px;
+}
+
+.section-first-p{
+    padding-bottom: 20px;
+}
+
+
+/* section second */
+
+.section-second{
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.section-second-content{
+    background: lightgrey;
+}
+
+.section-second-img{
+    width: 100%;
+    height: 190px;
+}
+
+.section-second .row{
+    gap: 15px;
+    flex-direction: column;
+}
+
+.section-second-img:hover{
+    border: 2px solid black;
+}
+
+/* section third */
+.section-third .section-third-content div{
+    height: 280px;
+    width: 400px;
+}
+
+/* section-fourth */
+.section-fourth{
+    margin: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-fourth .section-fourth-content{
+    width : 310px;
+    padding: 20px;
+    border: 1px solid darkorange;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.section-fourth .section-fourth-content h2{
+    padding-bottom: 10px;
+}
+.section-fourth .section-fourth-content p{
+    padding-bottom: 10px;
+}
+
+.section-fourth .section-fourth-content input[type = 'text'], input[type = 'email'], input[type = submit]{
+    width: 270px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 7px;
+}
+
+.section-fourth .section-fourth-content input[type = submit]{
+    text-align: center;
+    background: #FF5400;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    width: 290px;
+}
+
+.section-fourth-content-img img{
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Advisors content --bonas */
+.advisors{
+    margin: 80px 20px;
+}
+.advisors .advisors-content{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    flex-direction: column;
+}
+.advisors .advisors-content .advisors-content-box{
+    width: 250px;
+    height: 280px;
+}
+
+
+/* footer */
+footer{
+    margin-top: 80px;
+    padding: 30px 30px;
+}
+footer div{
+    text-align: center;
+    width: 400px;
+}
+footer div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a i{
+    color: black;
+    padding-right: 10px;
+    transition: .5s;
+}
+footer .footer-p{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer a i:hover{
+    font-size: 1.2rem;
+    transition: .5s;
+}
 }
