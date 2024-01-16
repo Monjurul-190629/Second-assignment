@@ -240,6 +240,7 @@ header nav ul li a:hover{
 }
 .section-fourth .section-fourth-content p{
     padding-bottom: 10px;
+    margin: 0;
 }
 
 .section-fourth .section-fourth-content input[type = 'text'], input[type = 'email'], input[type = submit]{
@@ -263,6 +264,47 @@ header nav ul li a:hover{
     height: 280px;
     width: 100%;
 }
+
+/* Advisors content --bonas */
+.advisors{
+    margin: 80px 50px;
+}
+.advisors .advisors-content{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+}
+.advisors .advisors-content .advisors-content-box{
+    width: 290px;
+    height: 320px;
+    text-align : center;
+    padding: 40px 20px;
+    background: rgba(200, 0, 0, 0.15);
+    margin: 30px;
+    border-radius: 14px;
+    box-shadow: 5px 7px 10px darkgrey;
+    transition: .5s;
+}
+.advisors .advisors-content .advisors-content-box:hover{
+    transition: .5s;
+    transform: translateY(-10%);
+}
+.advisors .advisors-content .advisors-content-box img{
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.advisors .advisors-content .advisors-content-box p{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.advisors h2, p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
 
 /* footer */
 footer{
