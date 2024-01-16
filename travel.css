@@ -64,7 +64,7 @@ label i{
 /* banner */
 .banner{
     margin-top: 20px;
-    background-image : url("Images/banner.png");
+    background-image : url("banner.png");
     background-blend-mode: overlay;
     background-repeat : no-repeat;
     background-color: rgba(0, 0, 0, .4);
