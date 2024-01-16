@@ -282,7 +282,7 @@ header nav ul li a:hover{
     width: 290px;
     height: 320px;
     text-align : center;
-    padding: 40px 20px;
+    padding: 50px 20px;
     background: rgba(200, 0, 0, 0.15);
     margin: 30px;
     border-radius: 14px;
@@ -301,6 +301,9 @@ header nav ul li a:hover{
 .advisors .advisors-content .advisors-content-box p{
     padding-bottom: 20px;
     padding-top: 10px;
+}
+.advisors h2{
+    text-align: center;
 }
 .advisors h2, .advisors p{
     text-align: center;
@@ -480,7 +483,7 @@ header nav ul{
 
 /* section third */
 .section-third .section-third-content div{
-    height: 280px;
+    height: 260px;
     width: 400px;
 }
 
@@ -526,7 +529,7 @@ header nav ul{
 
 .section-fourth-content-img img{
     height: 250px;
-    width: 100%;
+    width: 365px;
     margin: 0 auto;
 }
 
